@@ -1,0 +1,42 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+header>div {
+    background-image: url(./images/banner.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>div>a {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.menu>img {
+    width: 4rem;
+}
+.menu {
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gallery>img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
