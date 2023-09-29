@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: black;
     color: white;
+   
 }
 
 header>div {
@@ -26,10 +33,14 @@ header>div>a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .gallery>img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
 footer {
@@ -39,4 +50,53 @@ footer {
 a {
     color: white;
     text-decoration: none;
+}
+h1 {
+    display: inline-block;
+    width: 85%;
+   
+}
+nav{
+    display: inline;
+    
+}
+nav>a {
+    margin-left: 1rem;
+    font-weight: 800;
+}
+.banner>h2 {
+    padding-top: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.banner>a {
+    margin-left: 2rem;
+}
+#active {
+    color: orange;
+}
+
+.menu {
+    margin-top: 2rem;
+    display: inline-block;
+    margin-left: 6.5rem;
+    text-align: center;
+}
+.featured {
+    margin-top: 4rem;
+   text-align: center;
+}
+.featured>h3 {
+    margin-bottom: 1rem;
+}
+
+footer{
+    padding: .5rem;
+}
+footer>div {
+    display: inline-block;
+    width: 90%;
+}
+footer>p {
+    display: inline;
 }
