@@ -91,7 +91,7 @@ nav>a {
 }
 
 footer{
-    padding: .5rem;
+    padding: .7rem;
 }
 footer>div {
     display: inline-block;
@@ -99,4 +99,8 @@ footer>div {
 }
 footer>p {
     display: inline;
+}
+footer>div>a {
+    border: 1px solid white;
+    padding: .4rem;
 }
